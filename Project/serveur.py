@@ -1,9 +1,9 @@
-# Project/server/interface/rendez_vous.py
+# Project/server.py
 
 """
     Multi threaded UDP server.
-      - One thread to handle clients reception
-      - One thread to handle clients response
+      - One thread to handle clients reception /response
+      - One thread to send data added to message queue
 """
 
 import time
@@ -15,10 +15,10 @@ import pickle
 from queue import Queue
 
 # Static typing checking
-from typing import Tuple, Any
+from typing import Tuple, List, Any
 
 
-LOG = 'DestruckServer'
+LOG = 'RendezVous'
 
 
 __all__ = ['RendezVousServerUDP']
@@ -28,8 +28,8 @@ class RendezVousServerUDP(object):
 
     """
         Multi threaded UDP server.
-          - One thread to handle clients reception
-          - One thread to handle clients response
+          - One thread to handle clients reception /response
+          - One thread to send data added to message queue
     """
 
     def __init__(self, encoding: str = 'utf-8'):
@@ -58,12 +58,12 @@ class RendezVousServerUDP(object):
         self._sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
         # Keep track of thread
-        self._receiveThread = None     # type: Any
-        self._sendThread = None        # type: Any
+        self._receiveThread = None      # type: Any
+        self._dataThread = None         # type: Any
 
         # Data
-        self._recvContainer = Queue()  # Queue[str, str]
-        self.clients = list()
+        self._container = Queue()      # type: Queue[Tuple[str, Tuple[str, int]]]
+        self.clients = list()          # type: List[Tuple[str, int]]
 
     def start(self, host: str, port: int) -> bool:
         """Start UDP server."""
@@ -75,13 +75,13 @@ class RendezVousServerUDP(object):
 
             # Start thread to handle clients incoming messages
             self._receiveThread = threading.Thread(target=self._receive_loop,
-                                                   name='Receive')
+                                                   name='Recv-Send')
             self._receiveThread.start()
 
-            # Start thread to send response back to clients
-            self._sendThread = threading.Thread(target=self._send_loop,
-                                                name='Send')
-            self._sendThread.start()
+            # Start thread to deals with data added to queue
+            self._dataThread = threading.Thread(target=self._data_loop,
+                                                name='Data')
+            self._dataThread.start()
 
         except socket.error as err:
             self._sock.close()
@@ -98,7 +98,7 @@ class RendezVousServerUDP(object):
         try:
             self._stop()
             # Wait for accept threads
-            self._sendThread.join()
+            self._dataThread.join()
             self._receiveThread.join()
             # Clean
             self._reset()
@@ -120,11 +120,8 @@ class RendezVousServerUDP(object):
 
                 # Handle message only if server still running
                 if self._running:
-                    # Using same socket
+                    # Use same socket to respond to new peer
                     self._handle_client(self._sock, addr)
-                    # @TODO Not used for now
-                    # Only use same socket to be sure client receive response
-                    # self._recvContainer.put((msg, addr), block=True)
         except socket.error as err:
             self._logger.fatal('Receive loop failed due to (code {0}) --> {1}'.format(err.args[0], str(err)), exc_info=True)
 
@@ -141,16 +138,17 @@ class RendezVousServerUDP(object):
                 self._send_msg(self._sock, pickle.dumps(client), addr)
             self.clients.append(addr)
 
-    def _send_loop(self) -> None:
-        """Wait for messages to be sent. Should run on a separated thread."""
-        # @TODO use event loop instead of while loop
+    def _data_loop(self) -> None:
+        """Wait for data to be sent. Should run on a separated thread."""
         self._logger.debug('Waiting for messages to be sent.')
         with socket.socket(self._socketFamily, self._socketType, socket.IPPROTO_UDP) as s:
             s.bind(('', 0))
             while self._running:
+                # Reduce CPU cost
+                time.sleep(1 / 100.0)
                 # Check container
-                if (not self._recvContainer.empty()):
-                    msg, addr = self._recvContainer.get(block=True)
+                if (not self._container.empty()):
+                    msg, addr = self._container.get(block=True)
                     self._send_msg(s, 'Welcome to the server dear UnrealHost...', addr)
 
     def _send_msg(self, sock: socket.socket, msg: Any, addr: Tuple[str, int]) -> None:
@@ -184,7 +182,7 @@ class RendezVousServerUDP(object):
 
     def _reset(self) -> None:
         self._receiveThread = None
-        self._sendThread = None
+        self._dataThread = None
         self.clients = list()
 
     def __del__(self):
@@ -200,9 +198,9 @@ if __name__ == '__main__':
     # Minimal level for logs
     log_level = logging.DEBUG
     logging.getLogger().setLevel(log_level)
-    file_handler = add_file_handler('DestruckServer.log', parent='DestruckServer',
+    file_handler = add_file_handler('RendezVous.log', parent='RendezVous',
                                     level=log_level, filemode='a')
-    stream_handler = add_stream_handler(parent='DestruckServer', level=log_level)
+    stream_handler = add_stream_handler(parent='RendezVous', level=log_level)
 
     # SERVER
     server = RendezVousServerUDP()
@@ -211,6 +209,3 @@ if __name__ == '__main__':
     time.sleep(20)
     # Stop server
     server.stop()
-
-
-# https://www.rapapaing.com/blog/2011/07/how-to-do-udp-hole-punching/

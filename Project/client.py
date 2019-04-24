@@ -2,12 +2,11 @@
 
 """
     UDP client.
-    Only here for development purpose.
-
         1) Run server.py script (UDP server)
-        2) Run this script (UDP client)
-        4) You should see server response message
-        5) Wait for server to close
+        2) Run this script
+        2) Run this script on another computer
+        4) You should see server response message on both clients
+        5) You should see client talking to each other
 """
 
 import socket
@@ -30,18 +29,12 @@ def spam_clients(sock: socket.socket, other_clients: List[Tuple[str, int]]):
 
 
 if __name__ == '__main__':
-    isRunning = [True]
+    isRunning = [True]  # Mutable trick / hack ...
     other_clients = []
     message = 'UnrealHost dispo for a game !'.encode()
     timer = Timer(20.0, close_socket, kwargs=dict(mutableBool=isRunning))
 
-    server_address = ('localhost', 5000)       # LAN (same computer)
-    # server_address = ('192.168.1.13', 5000)    # LAN (Jeremy server)
-    # server_address = ('86.227.18.245', 5000)   # WAN (Jeremy server)
-    # server_address = ('133.133.2.11', 5000)    # WAN (Jeremy server)
-    # server_address = ('109.9.79.198', 5000)    # WAN (Eduard)
-    # server_address = ('133.133.2.25', 5000)    # LAN (Créajeux server)
-    # server_address = ('37.58.154.208', 5000)   # WAN (Créajeux server)
+    server_address = ('localhost', 5000)  # LAN (same computer)
 
     with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
         # Bind to any IP with dynamic port

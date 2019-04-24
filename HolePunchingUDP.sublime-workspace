@@ -1,0 +1,1327 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cha",
+				"putChar ∷ Char → IO ()\tPrelude"
+			],
+			[
+				"add",
+				"addalert"
+			],
+			[
+				"vect",
+				"vector\tC:\\mingw32\\mingw32\\lib\\gcc\\i686-w64-mingw32\\8.1.0\\include\\c++"
+			],
+			[
+				"vector",
+				"vector\tC:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.15.26726\\include"
+			],
+			[
+				"vec",
+				"vector\tC:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.15.26726\\include"
+			],
+			[
+				"str",
+				"string\tstring"
+			],
+			[
+				"tes",
+				"_Return_type_success_\t_Return_type_success_(expr)"
+			],
+			[
+				"Vec3",
+				"Vector3\tVector3"
+			],
+			[
+				"Als",
+				"AlmostColinear(Vec3 a, Vec3 b, Vec3 c)\tbool"
+			],
+			[
+				"_",
+				"_leftRightEdges\tQuadEdge<T>[]"
+			],
+			[
+				"de",
+				"default\tdefault"
+			],
+			[
+				"poi",
+				"points\tList<Vec3>"
+			],
+			[
+				"po",
+				"poissonGen\tPoissonDisk2D"
+			],
+			[
+				"ca",
+				"case\tcase"
+			],
+			[
+				"In",
+				"InCircle(double min, double max)\tVec3"
+			],
+			[
+				"P",
+				"Pow(double x, double y)\tdouble"
+			],
+			[
+				"Nex",
+				"NextDouble()\tdouble"
+			],
+			[
+				"Get",
+				"Get(Coord coord)\tVec3"
+			],
+			[
+				"B",
+				"black\tColor"
+			],
+			[
+				"Pois",
+				"PoissonDisk2D(float radius, float width, float height, int maxAttemp = 30)\tPoissonDisk2D(float radius, float width, float height, int maxAttemp = 30)"
+			],
+			[
+				"Sto",
+				"Store(Vec3 sample, Coord coord)\tvoid"
+			],
+			[
+				"sampl",
+				"sample\tVec3"
+			],
+			[
+				"for",
+				"foreach\tforeach"
+			],
+			[
+				"Ra",
+				"RandGen\tRandGen"
+			],
+			[
+				"Ne",
+				"NextDouble()\tdouble"
+			],
+			[
+				"Ran",
+				"Random(int Seed)\tRandom(int Seed)"
+			],
+			[
+				"Ien",
+				"IEnumerator<T>\tIEnumerator<T>"
+			],
+			[
+				"Vec",
+				"Vec3\tVec3"
+			],
+			[
+				"Flo",
+				"FloorToInt(float f)\tint"
+			],
+			[
+				"RiE",
+				"RightEdges(bool CCW = false)\tIEnumerable<QuadEdge<T>>"
+			],
+			[
+				"para",
+				"ParamArrayAttribute\tParamArrayAttribute"
+			],
+			[
+				"NotI",
+				"NotImplementedException()\tNotImplementedException()"
+			],
+			[
+				"Cell",
+				"CellConfig\tCellConfig"
+			],
+			[
+				"ExporC",
+				"Exportcells(double radius, Func<Vec3, Vec3, Vec3, Vec3> centerCalculator)\tList<Cell>"
+			],
+			[
+				"ed",
+				"edgeFirstID\tint"
+			],
+			[
+				"De",
+				"Debug\tDebug"
+			],
+			[
+				"MAx",
+				"Max(params float[] values)\tfloat"
+			],
+			[
+				"Rot",
+				"RotSym\tQuadEdge"
+			],
+			[
+				"UN",
+				"UnityEngine\tUnityEngine"
+			],
+			[
+				"Re",
+				"red\tColor"
+			],
+			[
+				"Dra",
+				"DrawPoints(List<Vec3> points, Transform parent, GameObject shape, Color color)\tvoid"
+			],
+			[
+				"Dr",
+				"DrawLine(List<Vec3> points, Transform parent, Material mat, Gradient gradient)\tvoid"
+			],
+			[
+				"Trian",
+				"TriangleDrawer\tTriangleDrawer"
+			],
+			[
+				"SetPositio",
+				"SetPosition(int index, Vector3 position)\tvoid"
+			],
+			[
+				"Se",
+				"SetPositions(Vector3[] positions)\tvoid"
+			],
+			[
+				"To",
+				"ToList()\tList<Vec3>"
+			],
+			[
+				"Hash",
+				"HashSet<T>()\tHashSet<T>()"
+			],
+			[
+				"Dela",
+				"Delaunay\tDelaunay"
+			],
+			[
+				"new",
+				"newGo\tGameObject"
+			],
+			[
+				"diff",
+				"diffY\tdouble"
+			],
+			[
+				"C",
+				"CircumCircleRadius2D(Vec3 a, Vec3 b, Vec3 c)\tdouble"
+			],
+			[
+				"Cir",
+				"CircumCenter2D(Vec3 a, Vec3 b, Vec3 c)\tVec3"
+			],
+			[
+				"Exp",
+				"ExportVoronoiFaces()\tList<Vec3>"
+			],
+			[
+				"CIr",
+				"CircumcenterAndRadius(Vec3 a, Vec3 b, Vec3 c)\tVec3"
+			],
+			[
+				"Ve",
+				"Vec3\tVec3"
+			],
+			[
+				"colo",
+				"colorsLength\tint"
+			],
+			[
+				"trian",
+				"triangleChild\tGameObject"
+			],
+			[
+				"V",
+				"Vec3\tVec3"
+			],
+			[
+				"crr",
+				"current\tQuadEdge"
+			],
+			[
+				"game",
+				"gameObject\tGameObject"
+			],
+			[
+				"Ce",
+				"Ceiling(double a)\tdouble"
+			],
+			[
+				"tria",
+				"triangles\tList<Vec3>"
+			],
+			[
+				"tr",
+				"transform\tTransform"
+			],
+			[
+				"tri",
+				"triangles\tList<Vec3>"
+			],
+			[
+				"curr",
+				"currIndex\tint"
+			],
+			[
+				"do",
+				"do\tdo"
+			],
+			[
+				"c",
+				"current\tQuadEdge"
+			],
+			[
+				"fist",
+				"first\tQuadEdge"
+			],
+			[
+				"Que",
+				"Queue<T>\tQueue<T>"
+			],
+			[
+				"lc",
+				"lCand\tQuadEdge"
+			],
+			[
+				"O",
+				"Origin\tVec3"
+			],
+			[
+				"base",
+				"base1\tQuadEdge"
+			],
+			[
+				"bas",
+				"base1\tQuadEdge"
+			],
+			[
+				"Lef",
+				"LeftOf(Vec3 pt, QuadEdge edge)\tbool"
+			],
+			[
+				"whi",
+				"while\twhile"
+			],
+			[
+				"Qua",
+				"QuadEdge\tQuadEdge"
+			],
+			[
+				"_p",
+				"_pts\tVec3[]"
+			],
+			[
+				"Diction",
+				"Dictionary<TKey, TValue>()\tDictionary<TKey, TValue>()"
+			],
+			[
+				"if",
+				"if\tif"
+			],
+			[
+				"Vector",
+				"Vector3\tVector3"
+			],
+			[
+				"name",
+				"namespace\tnamespace"
+			],
+			[
+				"QUA",
+				"QuadEdge\tQuadEdge"
+			],
+			[
+				"Ro",
+				"_rot\tQuadEdge"
+			],
+			[
+				"_o",
+				"_oNext\tQuadEdge"
+			],
+			[
+				"Sort",
+				"Sort(Array array, IComparer comparer)\tvoid"
+			],
+			[
+				"Check",
+				"CheckNeighbors(Triangle triOrigin, Vector3 pt)\tvoid"
+			],
+			[
+				"A",
+				"Adjacents\tTriangle[]"
+			],
+			[
+				"CO",
+				"Count\tint"
+			],
+			[
+				"L",
+				"Length\tint"
+			],
+			[
+				"start",
+				"startWidth\tfloat"
+			],
+			[
+				"re",
+				"receiveShadows\tbool"
+			],
+			[
+				"UnityE",
+				"UnityEngine\tUnityEngine"
+			],
+			[
+				"Uni",
+				"UnionWith(IEnumerable<Triangle> other)\tvoid"
+			],
+			[
+				"Ex",
+				"ExceptWith(IEnumerable<Triangle> other)\tvoid"
+			],
+			[
+				"previous",
+				"previous_newT\tTriangle"
+			],
+			[
+				"pre",
+				"previousInit\tbool"
+			],
+			[
+				"previo",
+				"previous_newT\tTriangle"
+			],
+			[
+				"adj",
+				"adj_badT_Index\tint"
+			],
+			[
+				"adBaT",
+				"adj_badT\tTriangle"
+			],
+			[
+				"a",
+				"Adjacents\tTriangle[]"
+			],
+			[
+				"Ge",
+				"GetPointsFromSegment(int edgeIndex)\tVector3[]"
+			],
+			[
+				"ba",
+				"badT\tTriangle"
+			],
+			[
+				"NotS",
+				"NotSupportedException()\tNotSupportedException()"
+			],
+			[
+				"ha2",
+				"hashTri2\tHashSet<Triangle>"
+			],
+			[
+				"Wi",
+				"ExceptWith(IEnumerable<Triangle> other)\tvoid"
+			],
+			[
+				"edg",
+				"edgeIndexToStart\tint"
+			],
+			[
+				"Getc",
+				"GetComponent<T>()\tT"
+			],
+			[
+				"Co",
+				"Count\tint"
+			],
+			[
+				"Compu",
+				"ComputeCircumcenter()\tvoid"
+			],
+			[
+				"inf",
+				"positiveInfinity\tVector3"
+			],
+			[
+				"Binat",
+				"BinaryTree<T>\tBinaryTree<T>"
+			],
+			[
+				"Node",
+				"Node()\tNode()"
+			],
+			[
+				"Pre",
+				"PreOrderTraversal(Node root)\tIEnumerator<Node>"
+			],
+			[
+				"Ie",
+				"IEnumerator\tIEnumerator"
+			],
+			[
+				"Da",
+				"DataStructure\tDataStructure"
+			],
+			[
+				"using",
+				"using\tusing"
+			],
+			[
+				"Gdow",
+				"GetKeyDown(KeyCode key)\tbool"
+			],
+			[
+				"cult",
+				"cultureName\tstring"
+			],
+			[
+				"_nb",
+				"_nbCol"
+			],
+			[
+				"m_",
+				"m_tileWidth"
+			],
+			[
+				"N",
+				"None\tKeyCode"
+			],
+			[
+				"ne",
+				"negative\tKeyCode"
+			],
+			[
+				"al",
+				"altPositive\tKeyCode"
+			],
+			[
+				"Ana",
+				"AnalogButton\tInputType"
+			],
+			[
+				"ConstruButto",
+				"ConstructButton(string _name, KeyCode _key, KeyCode _altKey = KeyCode.None, string _description = \"\")\tAxisConfig"
+			],
+			[
+				"INputT",
+				"InputType\tInputType"
+			],
+			[
+				"An",
+				"AnalogButton\tInputType"
+			],
+			[
+				"alt",
+				"_altposKey\tKeyCode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Haskell/Haskell.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					"Configure"
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					"Rebuild"
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					"Install"
+				],
+				[
+					"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SublimeHaskell/SublimeHaskell.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Markdown Preview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Build/pandoc.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Build/pandoc.sublime-build",
+					"Make pdf"
+				],
+				[
+					"Packages/User/Build/pandoc.sublime-build",
+					"Make tex"
+				]
+			],
+			[
+				"Packages/Markdown Preview/Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/MarkdownPreview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Build/pandoc.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Build/pandoc.sublime-build",
+					"Make pdf"
+				],
+				[
+					"Packages/User/Build/pandoc.sublime-build",
+					"Make tex"
+				]
+			],
+			[
+				"Packages/MarkdownPreview/Markdown.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 535.0,
+		"last_filter": "rena",
+		"selected_items":
+		[
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"rean",
+				"File: Rename"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"haskell",
+				"SublimeHaskell: Configure"
+			],
+			[
+				"stack",
+				"SublimeHaskell: Switch Stack Configs"
+			],
+			[
+				"run",
+				"SublimeHaskell: Run"
+			],
+			[
+				"repHa",
+				"SublimeREPL: Haskell"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ecc",
+				"EasyClangComplete: Show popup info"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pr",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"clang",
+				"EasyClangComplete: Show all errors"
+			],
+			[
+				"book",
+				"Bookmarks: Clear All"
+			],
+			[
+				"goto",
+				"EasyClangComplete: Open completion triggers location"
+			],
+			[
+				"cle",
+				"EasyClangComplete: Clean current CMake cache"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"clea",
+				"EasyClangComplete: Clean current CMake cache"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"clear",
+				"EasyClangComplete: Clean current CMake cache"
+			],
+			[
+				"easy",
+				"EasyClangComplete: Open completion triggers location"
+			],
+			[
+				"eas",
+				"EasyClangComplete: Clean current CMake cache"
+			],
+			[
+				"omple",
+				"EasyClangComplete: Show popup info"
+			],
+			[
+				"rest",
+				"OmniSharpSublime: Restart Server"
+			],
+			[
+				"restart",
+				"OmniSharpSublime: Restart Server"
+			],
+			[
+				"omn",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"relo",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"reloa",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"togg",
+				"ToggleTheme: Toggle"
+			],
+			[
+				"relao",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rel",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal\t",
+				"Package Control: Install Package"
+			],
+			[
+				"unity",
+				"Set Syntax: Unity C#"
+			]
+		],
+		"width": 682.0
+	},
+	"console":
+	{
+		"height": 457.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Documents/Projects/HolePunchingUDP"
+	],
+	"file_history":
+	[
+		"/D/Documents/Courses/Haskell/HaskellBook/DataTypes/Data.cabal",
+		"/D/Documents/Courses/Haskell/HaskellBook/DataTypes/myData.hs",
+		"/Q/Temp/TestServer/serveur.py",
+		"/D/Documents/Projects/UnrealDestruction/TestServer/fake_other_client.py",
+		"/D/Documents/Projects/UnrealDestruction/TestServer/fake_client.py",
+		"/D/Documents/Projects/UnrealDestruction/TestServer/serveur.py",
+		"/D/Logiciels/Miniconda/lib/socket.py",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/D/Documents/Projects/UnrealDestruction/TestServer/logger.py",
+		"/D/Documents/Courses/Haskell/HaskellBook/DataTypes/data.hs",
+		"/D/Documents/Courses/Haskell/HaskellBook/DataTypes/data.cabal",
+		"/D/Documents/Courses/Haskell/HaskellBook/DataTypes/stack.yaml",
+		"/C/Users/jerem/.ghci",
+		"/D/Documents/Courses/Haskell/HaskellBook/Strings/stack.yaml",
+		"/D/Documents/Courses/Haskell/HaskellBook/Strings/strings.cabal",
+		"/D/Documents/Courses/Haskell/HaskellBook/HelloWorld/test.hs",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/Messages/2.1.32.md",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/messages.json",
+		"/D/Documents/Courses/Haskell/HaskellBook/Strings/strings.hs",
+		"/D/Documents/Courses/Haskell/HaskellBook/HelloWorld/stack.yaml",
+		"/C/Program Files/Epic Games/UE_4.21/Engine/Plugins/Online/OnlineSubsystemSteam/Source/Public/OnlineSubsystemSteamModule.h",
+		"/C/Program Files/Epic Games/UE_4.21/Engine/Plugins/Online/OnlineSubsystemSteam/Source/Public/OnlineSubsystemSteam.h",
+		"/C/Program Files/Epic Games/UE_4.21/Engine/Plugins/Online/OnlineSubsystemSteam/Source/Public/OnlineAuthInterfaceSteam.h",
+		"/C/Program Files/Epic Games/UE_4.21/Engine/Plugins/Online/OnlineSubsystemSteam/Source/Public/OnlineSubsystemSteamPackage.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSubsystemDestruckTypes.h",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSubsystemDestruckPrivate.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/VoiceInterfaceDestruck.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSubsystemNullPrivate.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSubsystemDestruck.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSubsystemModuleDestruck.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSessionInterfaceDestruck.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineLeaderboardInterfaceDestruck.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSessionInterfaceDestruck.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineLeaderboardInterfaceDestruck.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineIdentityDestruck.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineAsyncTaskManagerDestruck.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineIdentityDestruck.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineAsyncTaskManagerDestruck.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineAchievementsInterfaceNull.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineAchievementsInterfaceNull.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/NboSerializerNull.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Public/OnlineSubsystemDestruck.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Public/OnlineSubsystemDestruckModule.h",
+		"/C/Program Files/Epic Games/UE_4.21/Engine/Plugins/Online/OnlineSubsystemSteam/Source/Private/OnlineSubsystemSteam.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSubsystemNull.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineAsyncTaskManagerNull.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineAsyncTaskManagerNull.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineIdentityNull.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineIdentityNull.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineLeaderboardInterfaceNull.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineLeaderboardInterfaceNull.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSessionInterfaceNull.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSubsystemModuleNull.cpp",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSessionInterfaceNull.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/OnlineSubsystemNullTypes.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Private/VoiceInterfaceNull.h",
+		"/D/Documents/Courses/Haskell/Introduction/baby.hs",
+		"/D/Documents/Courses/Haskell/Tutorial-V1/src/Lib.hs",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/Public/OnlineSubsystemDestruckPackage.h",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/Source/OnlineSubsystemDestruck.Build.cs",
+		"/D/Documents/Projects/UnrealDestruction/UnrealDestruct/Plugins/OnlineSubsystemDestruck/OnlineSubsystemDestruck.uplugin",
+		"/C/Users/jerem/Downloads/noteUnreal.md",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/README.md",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/SublimeHaskell/SubHaskEditing.md",
+		"/C/Users/jerem/AppData/Roaming/cabal/logs/ghc-8.6.3/simple-log-0.9.11-27b4ea3aecb39cf838c167d34b6af199b5dedc83.log",
+		"/C/Users/jerem/AppData/Roaming/cabal/logs/ghc-8.6.3/adjunctions-4.4-bcf5ec88121e76af63543c1b46599c2b3937df7c.log",
+		"/D/Documents/Projects/simpleGL/CMakeLists.txt",
+		"/D/Documents/Projects/simpleGL/simpleGL.sublime-project",
+		"/D/Documents/Projects/simpleGL/src/Components/Transform.cpp",
+		"/D/Documents/Projects/simpleGL/include/Shape.hpp",
+		"/D/Documents/Projects/simpleGL/include/simpleGL_macro.hpp",
+		"/Q/Creajeux/Annee3/ProjetPerso/Presentation5/Presentation_JeremyBois_perso.tex",
+		"/Q/Creajeux/Annee3/ProjetPerso/Presentation4/Presentation_JeremyBois_perso.tex",
+		"/C/Users/jerem/Downloads/Fw_ Mail.eml",
+		"/D/Documents/Projects/simpleGL/samples/Game/bin/Release/OpenGl-Game.exe.manifest",
+		"/D/Documents/Projects/simpleNet/doc/Resources.md",
+		"/D/Documents/Projects/simpleGL/.gitignore",
+		"/D/Documents/Projects/simpleGL/include/simpleGL.hpp",
+		"/D/Documents/Creajeux/Annee2/Physique/TD/DirectXCreaEngine/include/CreaEngine.h",
+		"/D/Documents/Courses/TestCmake/installs/README.md",
+		"/D/Documents/Courses/TestCmake/CMakeLists.txt",
+		"/D/Documents/Courses/TestCmake/src/Test/chat.cpp",
+		"/D/Documents/Courses/TestCmake/src/main.cpp",
+		"/Q/Temp/TestCmake/CMakeLists.txt",
+		"/D/Documents/Courses/TestCmake/installs/ECC_issue.md",
+		"/D/Documents/Courses/TestCmake/src/chat.cpp",
+		"/D/Documents/Courses/TestCmake/include/chat.hpp",
+		"/C/mingw32/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/cmath",
+		"/C/Program Files/LLVM/lib/clang/7.0.0/include/vecintrin.h",
+		"/C/Users/jerem/AppData/Local/Temp/EasyClangComplete/cmake_builds/ddbe1a3004c595f2e937394839bb0d97/build/compile_commands.json",
+		"/C/mingw32/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h",
+		"/D/Documents/Courses/TestCmake/TestCmake.sublime-project",
+		"/D/Documents/Courses/TestCmake/include/tutorial_info.h",
+		"/C/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/vector",
+		"/C/Users/jerem/AppData/Local/Temp/EasyClangComplete/cmake_builds/ddbe1a3004c595f2e937394839bb0d97/compile_commands.json",
+		"/D/Documents/Unity/RemapInputManger/README.md",
+		"/D/Documents/Unity/RemapInputManger/Assets/Scripts/InputManager/InputManagerInit.cs",
+		"/D/Documents/Unity/RemapInputManger/Assets/Scripts/InputManager/PlugAndPlayHelper.cs",
+		"/D/Documents/Unity/RemapInputManger/Assets/Scripts/InputManager/InputManager.cs",
+		"/D/Documents/Unity/RemapInputManger/Assets/Scripts/InputManager/InputType.cs",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/README.md",
+		"/D/Documents/Unity/RemapInputManger/.gitignore",
+		"/D/Documents/Unity/RemapInputManger/Assets/Scripts/Tests/InputTests.cs",
+		"/D/Documents/Creajeux/Annee2/Projet/L'Aventure Incroyable des Inspecteurs de Donjons/AIID/Assets/Scripts/Input/ControllerType.cs",
+		"/D/Documents/Creajeux/Annee2/Projet/L'Aventure Incroyable des Inspecteurs de Donjons/AIID/Assets/Scripts/Input/ButtonState.cs",
+		"/D/Documents/Creajeux/Annee2/Projet/L'Aventure Incroyable des Inspecteurs de Donjons/AIID/Assets/Scripts/Input/InputMapper.cs",
+		"/D/Documents/Creajeux/Annee2/Projet/L'Aventure Incroyable des Inspecteurs de Donjons/AIID/Assets/Scripts/Input/PlugAndPlayHelper.cs",
+		"/D/Documents/Creajeux/Annee2/Projet/L'Aventure Incroyable des Inspecteurs de Donjons/AIID/Assets/Scripts/Input/EventInputHelper.cs",
+		"/C/mingw32/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/type_traits",
+		"/D/Documents/Courses/TestCmake/build/Makefile",
+		"/C/Users/jerem/Downloads/temp..no-sublime-package",
+		"/D/Documents/Courses/TestCmake/easyClangComplete.config.backup..no-sublime-package",
+		"/C/Users/jerem/AppData/Roaming/Sublime Text 3/Packages/EasyClangComplete/Default.sublime-keymap",
+		"/C/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/cmath",
+		"/C/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/include/iostream",
+		"/C/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/ucrt/corecrt_wstdio.h",
+		"/D/Documents/Courses/TestCmake/include/tutorial_info.h.in",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/DelaunayApplication/Assets/Scripts/Delaunoi/Algorithms/GuibasStolfi.cs",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/DelaunayApplication/Assets/Scripts/Delaunay/DataStructures/Cell.cs",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/DelaunayApplication/Assets/Scripts/Delaunay/DataStructures/QuadEdge.cs",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/DelaunayApplication/Assets/Scripts/Delaunay/DataStructures/Vec3.cs",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/DelaunayApplication/Assets/Scripts/Delaunay/Generators/HaltonSequence.cs",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/DelaunayApplication/Assets/Scripts/Delaunay/Generators/PoissonDisk2D.cs",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/DelaunayApplication/Assets/Scripts/Delaunay/Tools/Geometry.cs",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/DelaunayApplication/Assets/Scripts/Delaunay/Tools/Helper.cs",
+		"/D/Documents/Creajeux/Annee3/ProjetPerso/DelaunayTriangulation/DelaunayApplication/Assets/Scripts/Delaunay/Tools/RandGen.cs"
+	],
+	"find":
+	{
+		"height": 78.0
+	},
+	"find_in_files":
+	{
+		"height": 144.0,
+		"where_history":
+		[
+			"D:\\Documents\\Creajeux\\Projet\\L'Aventure Incroyable des Inspecteurs de Donjons\\AIID\\Assets"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Data",
+			"socket.socket",
+			"socket",
+			"49496",
+			"61578",
+			"60324",
+			"Host association",
+			"Host",
+			"gethostbyaddr",
+			"gethostname",
+			"getsockname",
+			"_accept",
+			"sendto",
+			"addr",
+			"Créajeux",
+			"Strings",
+			"[Char]",
+			"pack",
+			"Integral",
+			"a",
+			"section",
+			"GetReplicationHashForSubsystem",
+			"NULL",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"NULL_SUBSYSTEM",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"FUniqueNetIdDestruck",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"Null",
+			"FOnlineFactoryDestruck",
+			"NULL",
+			"NULL_SUBSYSTEM",
+			"Null",
+			"NULL",
+			"Null",
+			"NULL",
+			"++",
+			"'.'",
+			"Delaunay",
+			"$",
+			"[\\Smiley{}]",
+			"Frowny",
+			"[\\Smiley{}]",
+			"Delaunay",
+			"gmail",
+			"[0-9]{2}[.][1-9]{3}[.][1-9]{3}.",
+			"ank",
+			"s/",
+			"/",
+			"e/",
+			"s/",
+			"/",
+			"NodeManager",
+			"/",
+			"_WIN32",
+			"chat",
+			"binary_SOURCES",
+			"Globa",
+			"\"-IC",
+			"ERRO",
+			", ",
+			"prog",
+			"\\",
+			"MyTest",
+			"\\",
+			"stdLib",
+			"libstdc",
+			"std",
+			"\\",
+			"math",
+			"std",
+			"MinGwDLL",
+			"foo",
+			"\")\n",
+			"CMAKE_BUILD_TYPE",
+			")",
+			") ",
+			")",
+			"# ",
+			"test",
+			"chat",
+			"test",
+			"outputValue",
+			"\\",
+			"std::",
+			"/",
+			"${PROJECT_NAME}",
+			"TestCmake",
+			"__acrt_iob_func",
+			"Tutorial_VERSION_MAJOR",
+			"SimpleGL",
+			"primalEdge.RotSym",
+			"ConstructAtInfinity",
+			"visitedTagState",
+			"Delaunay.",
+			"Delaunay",
+			"Delaunay.",
+			"Delaunay",
+			"voronoiCells",
+			"IsVoronoi",
+			"Exportcells",
+			"centerCalculator",
+			"ConstructAtInfinity",
+			"nextE",
+			"SqrMagnitude",
+			"Vector3",
+			"_oNext"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"DESTRUCK"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 74.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.anaconda_documentation":
+	{
+		"height": 212.0
+	},
+	"output.exec":
+	{
+		"height": 340.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haskell_run_output":
+	{
+		"height": 136.0
+	},
+	"output.markdown":
+	{
+		"height": 142.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sublime_haskell_build_log_panel":
+	{
+		"height": 274.0
+	},
+	"output.sublime_haskell_output_panel":
+	{
+		"height": 286.0
+	},
+	"output.sublime_haskell_show_types_panel":
+	{
+		"height": 194.0
+	},
+	"output.variable_get":
+	{
+		"height": 204.0
+	},
+	"pinned_build_system": "",
+	"project": "HolePunchingUDP.sublime-project",
+	"replace":
+	{
+		"height": 98.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inpmana",
+				"Assets\\Scripts\\Input\\InputManager.cs"
+			],
+			[
+				"inputy",
+				"Dry\\Assets\\Scripts\\Input\\InputType.cs"
+			],
+			[
+				"cbe",
+				"Dry\\Assets\\Scripts\\Camera\\CameraBehavior.cs"
+			],
+			[
+				"inp",
+				"Dry\\ProjectSettings\\InputManager.asset"
+			],
+			[
+				"rop",
+				"Assets\\Scripts\\Behaviors\\RopeBehavior.cs"
+			],
+			[
+				"texcpp",
+				"TD DP\\src\\CreaEngine\\Assets\\Text.cpp"
+			],
+			[
+				"gamh",
+				"TD DP\\include\\GameManager.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Documents\\Creajeux\\Annee3\\ProjetGroupe\\Projet DESTRUCTION\\Unity_ProjetDESTRUCTION\\ProjetDestruction.sublime-project"
+			],
+			[
+				"POO",
+				"D:\\SVN\\2017-2018\\Sections\\Prog2B\\JBois\\Gameplay\\Pool\\PoolPattern\\PoolPattern.sublime-project"
+			],
+			[
+				"crea",
+				"D:\\SVN\\2017-2018\\Sections\\Prog2B\\JBois\\Gameplay\\Projets\\CreaRope\\CreaRope\\CreaRope.sublime-project"
+			],
+			[
+				"projec",
+				"D:\\SVN\\2017-2018\\Projets\\Projet 2\\L'Aventure Incroyable des Inspecteurs de Donjons\\CreaProject2.sublime-project"
+			]
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 490.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 339.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
